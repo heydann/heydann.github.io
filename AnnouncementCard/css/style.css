@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
 
+html {
+    box-sizing: border-box;
+}
 body {
     background-color: #e5eff5;
 }
@@ -20,6 +23,7 @@ h1,h2,h3,h4,p,ul, li, a {
 
 .wrapper {
     width: 860px;
+    max-width: 80rem;
     margin-top: 45px;
     box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
     border-bottom-right-radius: 10px;
@@ -29,7 +33,7 @@ h1,h2,h3,h4,p,ul, li, a {
     background-color: #fff;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;  
-    padding: 5%;
+    padding: 7%;
 }
 
 h1 {
@@ -49,11 +53,9 @@ h3 {
 
 .bottom-left {
     background-color: #02a8a8;
-    border-bottom-left-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 5%;
-    width: 50%;
+    padding: 7%;
 }
 
 h2 {
@@ -100,9 +102,9 @@ h2 {
 }
 
 .bottom-right {
-    padding: 5%;
+    padding: 7%;
     background-color: #36b5b0;
-    width: 50%;
+    
     border-bottom-right-radius: 10px;
 }
 
@@ -114,8 +116,49 @@ h2 {
     padding: 1.5px 0;
 }
 
-.bottom-announcement {
-    display: flex;
-}
+@media screen and (min-width: 700px) {
+    .announcement {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .top {
+      padding: 5%;
+    }
+    .wrapper {      
+      margin-top: 50px;
+    }
+    .bottom-announcement {
+      display: flex;
+      width: 100%;
+      
+    }
+    .bottom-left {
+      border-bottom-left-radius: 10px;
+      width: 50%;
+      padding: 5%;
+     
+    }
+    .bottom-right {
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 0px;
+      width: 50%;
+      padding: 5%;
+    }
+  } 
+ 
+ @media screen and (max-width: 700px) {
+    .wrapper {
+        margin: 5%;
+        max-width: 600px;
+        flex-wrap: wrap;
+    }
+    .bottom-announcement {  
+      width: 100%;
+    }
 
+    .bottom-right {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
 
+    }
+  } 
