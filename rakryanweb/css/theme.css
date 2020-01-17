@@ -54,7 +54,7 @@ h4,
 h5,
 h6,
 p,
-ul,
+
 a {
   margin: 0;
   padding: 0;
@@ -74,7 +74,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-  color: #666666;
+  color: #fff;
   font-weight: 400;
 }
 h1,
@@ -4765,6 +4765,7 @@ section.parallax .row .background-image-holder {
 .menu-horizontal > li,
 .menu-vertical > li {
   font-family: 'Open Sans', 'Roboto', 'Helvetica', Sans-Serif;
+  color: #fff;
 }
 .bar .logo {
   max-height: 1.85714286em;

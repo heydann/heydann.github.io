@@ -1,4 +1,38 @@
 /*! Place your custom styles here */
+/*---------------------------------------------*/
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
+}
+
+li {
+  color: #ffffff;
+}
+body, h1,h2,h3,h4, a {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat Extra", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat Medium", sans-serif;
+}
+
+h4 {
+  font-family: "Montserrat Semibold", sans-serif;
+}
+
+h6 {
+  font-family: "Montserrat Semibold", sans-serif;
+}
 
 a, a:hover {
   text-decoration: none;
@@ -18,59 +52,36 @@ a, a:hover {
 .link {
   color: #ffffff;
 }
-/*
-span:hover {
-  color : #00a552;   
-}
-.dropdown > span{
-    color: #00a552;
-}
-.dropdown-1  {
-    padding-bottom: 5px;
-}
-.dropdown-1 > a{
-    color: #ffffff;
-}
-.dropdown-1 > a:hover{
-    color: #00a552;
-}
-.dropdown-1:hover {
-    color :#00a552;
-} */
-.nav-container {
+iner {
     padding-top: 5px;
     padding-bottom: 10px;
 }
 .dropdown-2{
     font-weight: 800;
 }
-/*
-li > a > .stack-search{
-    font-size: 18px;
+
+.sub-digital {
+  color: #d5af30;
 }
-li > a > .stack-search:hover {
-    color: #00a552;
+
+.digital {
+  font-weight: 600;
+  font-size: 55px;
+  color: #80877c;
+  text-transform: capitalize;
 }
-.detail-berita {
-    text-align: center;
-}
-.detail-kegiatan {
-    text-align: center;
-}
-a {
-    color: #a5a5a5;
-    text-decoration: none;
-    font-weight: 550;
-}
-a:hover {
-    color: #00a552;
-    text-decoration: none;
-} */
+
 .footer-dark {
     padding-bottom: 25px;
 }
-p{
+
+p {
     padding-bottom: 10px;
+}
+
+.feature-large h2 {
+  font-family: "Montserrat Semibold", sans-serif;
+  color: #80877c;
 }
 
 .feature-1 > a > img {
@@ -122,16 +133,42 @@ input[type=submit] {
 }
 .lead-left {
     text-align: left;
+    font-family: "Montserrat Medium", sans-serif;
+    color: #ffffff;
+}
+
+.skill-dev {
+  color: #d5af30;
+  text-decoration: none;
+}
+
+.skill-dev:hover {
+  color: #d5af30;
+}
+
+.desc-bg-second {
+  text-align: center;
+  font-family: "Montserrat Medium", sans-serif;
+  color: #80877c;
+}
+
+.left-program {
+  color: #d5af30;
 }
 
 .feature-box {
   padding-top: 50px;
-  background: #a5a5a5;
+  background-color: #c7c5b8;
   width: 100%;
   height: 160px;
   text-align: center;
   box-sizing: border-box;
-  
+}
+
+.feature-box h4 {
+  font-family: "Montserrat Semibold", sans-serif;
+  color: #fff;
+  padding:0 20px;
 }
 
 .feature-box:after {
@@ -151,8 +188,13 @@ input[type=submit] {
   height: 300px;
 }
 
+.box-switch h2 {
+  font-family: "Montserrat Medium", sans-serif;
+  color: #ffffff;
+}
+
 .bs-2 {
-background-color: #c7c5b8;
+  background-color: #c7c5b8;
 }
 
 .bs-1 {
@@ -165,8 +207,8 @@ background-color: #c7c5b8;
 }
 
 .logo-footer{
-  width: 150px;
-  height: 120px;
+  width: 130px;
+  height: 100px;
 }
 
 .btn-start-2 {
@@ -208,120 +250,49 @@ background-color: #c7c5b8;
 .bg-second {
   margin-top: 100px;
 }
-/*
-table {
-    color: #666;
-    background: #eaebec;
-    border: #ccc 1px solid;
-    text-shadow: 1px 1px 0px #fff;
-}
-table th {
-    background: #ededed;
-    border-bottom: 1px solid #e0e0e0;
-    border-left: 1px solid #e0e0e0; 
-    padding: 15px 35px;
-}
-table th:first-child{  
-    border-left:none;  
-  }
-   
-  table tr {
-    text-align: center;
-    padding-left: 20px;
-  }
-   
-  table td:first-child {
-    text-align: left;
-    padding-left: 20px;
-    border-left: 0;
-  }
-   
-  table td {
-    padding: 15px 35px;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #e0e0e0;
-    border-left: 1px solid #e0e0e0;
-    background: #fafafa;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
-    background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
-  }
-   
-  table tr:last-child td {
-    border-bottom: 0;
-  }
-   
-  table tr:last-child td:first-child {
-    -moz-border-radius-bottomleft: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-  }
-   
-  table tr:last-child td:last-child {
-    -moz-border-radius-bottomright: 3px;
-    -webkit-border-bottom-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-  }
-   
-  table tr:hover td {
-    background: #f2f2f2;
-    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
-    background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
-  } */
 
-/*
-@media (min-width: 768px) {
-  .form-search .combobox-container,
-  .form-inline .combobox-container {
-    display: inline-block;
-    margin-bottom: 0;
-    vertical-align: top;
-  }
-  .form-search .combobox-container .input-group-addon,
-  .form-inline .combobox-container .input-group-addon {
-    width: auto;
-  }
+.text-center {
+  padding-right: 100px;
 }
 
-.combobox-selected .caret {
-  display: block;
+.horizontal {
+  display: inline-block;
+  
 }
 
+.horizontal > li {
+  display: inline-block;
+  text-transform: uppercase;
+}
 
-/* :not doesn't work in IE8 */
-/*
-.combobox-container:not(.combobox-selected) .glyphicon-remove {
+.link-dropdown {
+  color: #d5af30;
+}
+
+.horizontal > li:not(:last-child) {
+  margin-right: 1.85714286em;
+}
+
+@media all and (max-width: 767px) {
+  .horizontal {
     display: block;
+    text-align: left;
   }
-  
-  .typeahead-long {
-    max-height: 300px;
-    overflow-y: auto;
+  .horizontal > li {
+    
+    padding: 0;
+    display: block;
+    text-transform: uppercase;
   }
-  
-  .control-group.error .combobox-container .add-on {
-    color: #B94A48;
-    border-color: #B94A48;
+}
+
+.type--uppercase {
+  font-size: 15px;
+}
+
+@media all and (max-width: 767px) {
+  .menu-horizontal > .dropdown > .dropdown__trigger:after {
+    content: '\e80a';
+    margin-left: 4px;
   }
-  
-  .control-group.error .combobox-container .caret {
-    border-top-color: #B94A48;
-  }
-  
-  .control-group.warning .combobox-container .add-on {
-    color: #C09853;
-    border-color: #C09853;
-  }
-  
-  .control-group.warning .combobox-container .caret {
-    border-top-color: #C09853;
-  }
-  
-  .control-group.success .combobox-container .add-on {
-    color: #468847;
-    border-color: #468847;
-  }
-  
-  .control-group.success .combobox-container .caret {
-    border-top-color: #468847;
-  }
-  */
+}

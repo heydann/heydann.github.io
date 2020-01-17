@@ -21,4 +21,5 @@ h5{
 
 .bar-1 .menu-horizontal>li>.dropdown__trigger, .bar-1 .menu-horizontal>li>a{
 	font-weight: 500;
+	color: brown;
 }

@@ -1109,7 +1109,7 @@ ul:last-child {
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
-  color: #252525;
+  color: #fff;
 }
 .menu-horizontal > li > a:hover,
 .menu-horizontal > li > span:hover,
