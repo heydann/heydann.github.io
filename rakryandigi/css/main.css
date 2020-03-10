@@ -1,0 +1,23 @@
+.btn-warn {
+    background-color: #d5af30;
+}
+
+.nav-brand img {
+    width: 60px;
+    height: 44px;
+}
+
+.menu-nav {
+    color: #d5af30;
+}
+
+.logo-footer {
+    width: 120px;
+    height: 95px;
+}
+
+#topnav .login-button {
+    float: left;
+    line-height: 68px;
+    padding: 3px 0px;
+  }
