@@ -2,6 +2,15 @@
     background-color: #d5af30;
 }
 
+.text-warn {
+    color: #d5af30;
+}
+
+.section-margin {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 .nav-brand img {
     width: 60px;
     height: 44px;
